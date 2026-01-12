@@ -3,7 +3,7 @@ android_app_import {
     name: "DuckDuckGo",
     apk: "browser/duckduck.apk",
     privileged: false,
-    certificate: "PRESIGNED",
+    certificate: "platform",
     dex_preopt: {
         enabled: false,
     },
@@ -14,7 +14,7 @@ android_app_import {
     name: "FossifyFileManager",
     apk: "filemanager/org.fossify.filemanager.apk",
     privileged: false,
-    certificate: "PRESIGNED",
+    certificate: "platform",
     dex_preopt: {
         enabled: false,
     },
@@ -25,7 +25,7 @@ android_app_import {
     name: "FossifyGallery",
     apk: "gallery/org.fossify.gallery.apk",
     privileged: false,
-    certificate: "PRESIGNED",
+    certificate: "platform",
     overrides: [
         "Gallery2",
         "Gallery",
@@ -42,7 +42,7 @@ android_app_import {
     name: "ImageToolbox",
     apk: "imageToolbox/image-toolbox-3.4.0-alpha01-arm64-v8a.apk",
     privileged: false,
-    certificate: "PRESIGNED",
+    certificate: "platform",
     dex_preopt: {
         enabled: false,
     },
@@ -53,7 +53,7 @@ android_app_import {
     name: "TapTap",
     apk: "taptap/TapTap-v1.6.2.apk",
     privileged: false,
-    certificate: "PRESIGNED",
+    certificate: "platform",
     dex_preopt: {
         enabled: false,
     },
@@ -64,7 +64,7 @@ android_app_import {
     name: "Session",
     apk: "session/session-1.28.0-arm64-v8a-play-release.apk",
     privileged: false,
-    certificate: "PRESIGNED",
+    certificate: "platform",
     dex_preopt: {
         enabled: false,
     },
